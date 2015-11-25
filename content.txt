@@ -1,0 +1,38 @@
+Homepage
+	
+About Jimmy (/about-jimmy.html)
+	Picture of Jimmy holding a jam
+	8-ish word, friendly intro sentence
+	Two paragraph bio
+
+Products (/products.html)
+	intro 3 sentence paragraph
+	List of products
+		title
+		image
+		price
+		2 sentence description
+		availability
+		links to a product page
+
+Product page (/product-name.html)
+	image of product
+	paragraph about making the product
+	image of the plant and/or the process
+
+The Farm (/the-farm.html)
+	History of the farm
+		A few paragraphs about the previous owners, acreage and past uses of the farm
+
+Gallery
+	Thumbnail grid of farm images
+
+Contact (/contact.html)
+	10 word, friendly prompt to contact us
+	Form
+		First/Last name
+		Email
+		Message
+		What you're inquiring about (Jams, soybeans, corn)
+
+
