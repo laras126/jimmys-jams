@@ -1,0 +1,49 @@
+
+/* General Styles */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: purple;
+}
+
+img {
+	max-width: 100%; /* Don't get bigger than your container */
+}
+
+
+/* Typography */
+
+h1 {
+	color: orange;
+}
+
+.subheading {
+	color: red;
+}
+
+
+/* Layout */
+
+.wrapper {
+	padding: 20px;
+	background-color: lemonchiffon;
+	max-width: 700px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+
+/* Content */
+
+.heading-image {
+	margin: auto;
+	display: block;
+}
+
+
+
+
+
