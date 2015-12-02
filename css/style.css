@@ -7,6 +7,10 @@
 
 body {
 	color: purple;
+	background-image: url("../images/mulberry-pile.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 img {
@@ -28,19 +32,20 @@ h1 {
 /* Layout */
 
 .wrapper {
-	padding: 20px;
-	background-color: lemonchiffon;
-	max-width: 700px;
-	margin: auto;
-	margin-top: 40px;
+	background-color: skyblue;
+	padding: 20px; /* Add space all around wrapper */
+	max-width: 700px; /* Magic max-width responsive styles */
+	margin: auto; /* Center */
+	margin-top: 40px; /* Add space on top */
 }
+
 
 
 /* Content */
 
 .heading-image {
-	margin: auto;
-	display: block;
+	margin: auto; /* Center the image */
+	display: block; /*  */
 }
 
 
