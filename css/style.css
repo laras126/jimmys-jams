@@ -11,7 +11,9 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Slabo 27px', sans-serif;
+	font-size: 120%; /* Make the font slightly bigger */
+
 }
 
 img {
@@ -22,24 +24,25 @@ img {
 /* Typography */
 
 h1 {
-	color: orange;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .subheading {
-	color: red;
+	/* Add a border to the top and some padding so it's not right up against the text */
+	border-top: 1px dotted #00445E;
+	padding-top: 10px;
 }
 
 
 /* Layout */
 
 .wrapper {
-	background-color: skyblue;
+	background-color: #F7F8F0;
 	padding: 20px; /* Add space all around wrapper */
 	max-width: 700px; /* Magic max-width responsive styles */
-	margin: auto; /* Center */
-	margin-top: 40px; /* Add space on top */
+	margin: 40px auto; /* Center and add space to top and bottom */
 }
-
 
 
 /* Content */
