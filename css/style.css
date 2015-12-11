@@ -1,4 +1,5 @@
 
+
 /* General Styles */
 
 * {
@@ -13,7 +14,15 @@ body {
 	background-repeat: no-repeat;
 	font-family: 'Slabo 27px', sans-serif;
 	font-size: 120%; /* Make the font slightly bigger */
+}
 
+/* Adding specific styles based on the body class */
+.products {
+	color: #FFC700;
+}
+
+.about {
+	
 }
 
 img {
@@ -35,6 +44,14 @@ h1 {
 }
 
 
+/* Navigation */
+
+.site-nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+
 /* Layout */
 
 .wrapper {
@@ -49,10 +66,19 @@ h1 {
 
 .heading-image {
 	margin: auto; /* Center the image */
-	display: block; /*  */
+	display: block;
 }
 
 
+/* Media Queries */
 
+@media(min-width: 565px) {
+
+	.site-nav li {
+		display: inline-block;
+		margin: 10px;
+	}
+
+}
 
 
