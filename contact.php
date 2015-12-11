@@ -1,6 +1,4 @@
-<?php 
-$body_class = 'contact';
-include('partials/header.php'); ?> 
+<?php include('partials/header.php'); ?> 
 
 	<h1>Contact</h1>
 	
