@@ -20,7 +20,7 @@ include('partials/header.php'); ?>
 	
 	<img class="heading-image" src="images/jimmy.jpg" alt="">
 	
-	<p>Eight word friendly intro sentence, it's so nice.</p>
+	<p>That's Jimmy with the family dog, Feebee.</p>
 	
 	<h2 class="subheading">About Jimmy</h2>
 

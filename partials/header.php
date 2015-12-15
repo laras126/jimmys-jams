@@ -5,6 +5,7 @@
 	<title>Jimmy's Jams</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/flexbox-grid.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,7 +25,3 @@
 				<li><a href="location.php">Location</a></li>
 			</ul>
 		</nav>
-
-
-
-

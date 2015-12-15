@@ -10,6 +10,7 @@ body {
 	color: purple;
 	background-image: url("../images/mulberry-pile.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	font-family: 'Slabo 27px', sans-serif;
@@ -58,7 +59,7 @@ h1 {
 .wrapper {
 	background-color: #F7F8F0;
 	padding: 20px; /* Add space all around wrapper */
-	max-width: 700px; /* Magic max-width responsive styles */
+	max-width: 900px; /* Magic max-width responsive styles */
 	margin: 40px auto; /* Center and add space to top and bottom */
 }
 
