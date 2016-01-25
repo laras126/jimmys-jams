@@ -15,7 +15,7 @@ include('partials/header.php'); ?>
 		</div>
 		<div class="product-info col-sm-8">
 			<h3 class="product-title">Jams</h3>
-			<p>Product 1 description. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p>Our jams are created from fresh, wild farm ingredients. We have cherry jams, mulberry, and black raspberry. All fruit is harvested by hand during the season it is available, and then simmered down in a pot and bottled.</p>
 			<p class="availability warning">Supplies limited</p>
 		</div>
 	</div> <!-- .product -->
@@ -26,7 +26,7 @@ include('partials/header.php'); ?>
 		</div>
 		<div class="product-info col-sm-8">
 			<h3 class="product-title">Cordials</h3>
-			<p>Product 2 description. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p>Elderflower cordial is our specialty, but we also offer black walnut and apple cordials. These are perfect to add to your tea or to stir up with a spirit of your choosing for a delicious farm fresh cocktail. Available year round.</p>
 			<p class="availability success">Available</p>
 		</div>
 	</div> <!-- .product -->
@@ -37,7 +37,7 @@ include('partials/header.php'); ?>
 		</div>
 		<div class="product-info col-sm-8">
 			<h3 class="product-title">Pennsylvania Corn</h3>
-			<p>Specially harvested corn from this fall. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+			<p>Keep your cows plump and happy with our specially harvested Pennsylvania corn. Corn is in harvested during the fall and kept in the farm silo during the winter and available year round.</p>
 			<p class="availability success">Available</p>
 		</div> <!-- .product -->
 	</div>
