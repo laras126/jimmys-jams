@@ -19,7 +19,11 @@
 	<div class="container-fluid wrapper">
 		<div class="row">
 			<div class="col-xs-12">
-				<h1 class="logo">Jimmy's Jams</h1>
+				<!-- <h1 class="logo">Jimmy's Jams</h1> -->
+				<img class="logo" src="images/logo.svg" alt="">
+			</div>
+			<div class="menu-trigger">
+				<a href="#">Open Menu</a>
 			</div>
 			<nav class="site-nav col-xs-12">
 				<ul>
@@ -31,4 +35,4 @@
 				</ul>
 			</nav>
 		</div>
-		<div class="col-sm-offset-2 col-sm-8">
+		<div class="col-xs-12">

@@ -1,5 +1,4 @@
 
-
 /* General Styles */
 
 * {
@@ -40,7 +39,7 @@ h1 {
 	text-align: center;
 }
 
-.special {
+.active {
 	color: pink;
 }
 
@@ -65,6 +64,29 @@ h1 {
 	padding: 0;
 }
 
+.menu-trigger {
+	text-align: center;
+	width: 100%;
+}
+
+@media(max-width: 48em) {
+	
+	.site-nav {
+		max-height: 0;
+		overflow: hidden;
+	}
+
+	.site-nav.open {
+		max-height: none;
+	}
+
+}
+
+@media(min-width: 48em) {
+	.menu-trigger {
+		display: none;
+	}
+}
 
 /* Layout */
 
