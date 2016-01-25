@@ -14,7 +14,7 @@ include('partials/header.php'); ?>
 			<p class="caption">Delicious farm fresh jam.</p>
 		</div>
 		<div class="product-info col-sm-8">
-			<h3 class="product-title">Mulberry Jam</h3>
+			<h3 class="product-title">Jams</h3>
 			<p>Product 1 description. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 			<p class="availability warning">Supplies limited</p>
 		</div>
@@ -25,7 +25,7 @@ include('partials/header.php'); ?>
 			<img src="images/cordial.jpg" alt="">
 		</div>
 		<div class="product-info col-sm-8">
-			<h3>Elderflower Cordial</h3>
+			<h3 class="product-title">Cordials</h3>
 			<p>Product 2 description. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 			<p class="availability success">Available</p>
 		</div>
@@ -36,7 +36,7 @@ include('partials/header.php'); ?>
 			<img src="images/corn.jpg" alt="">
 		</div>
 		<div class="product-info col-sm-8">
-			<h3>Pennsylvania Corn</h3>
+			<h3 class="product-title">Pennsylvania Corn</h3>
 			<p>Specially harvested corn from this fall. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 			<p class="availability success">Available</p>
 		</div> <!-- .product -->
