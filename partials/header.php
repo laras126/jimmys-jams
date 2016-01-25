@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Jimmy's Jams</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/flexbox-grid.css">
 	<link rel="stylesheet" href="css/flickity.css">
 	<link rel="stylesheet" href="css/style.css">
