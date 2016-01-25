@@ -1,5 +1,7 @@
 <?php include('partials/header.php') ?>
 	
+	<h1>Welcome to Jimmy's Jams</h1>
+
 	<div class="gallery">
 		<div class="gallery-cell">
 			<img src="images/corn-home.jpg" alt="Slider Image">
