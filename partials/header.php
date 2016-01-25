@@ -22,9 +22,6 @@
 				<!-- <h1 class="logo">Jimmy's Jams</h1> -->
 				<img class="logo" src="images/logo.svg" alt="">
 			</div>
-			<div class="menu-trigger">
-				<a href="#">Open Menu</a>
-			</div>
 			<nav class="site-nav col-xs-12">
 				<ul>
 					<li><a href="index.php">Home</a></li>
