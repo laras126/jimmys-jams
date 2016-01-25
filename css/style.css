@@ -15,7 +15,7 @@ body {
 
 	background-position: center;
 	background-repeat: no-repeat;
-	font-family: 'Slabo 27px', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 120%; /* Make the font slightly bigger */
 }
 
@@ -70,6 +70,7 @@ h1 {
 
 .wrapper {
 	background-color: #FEFEFE;
+	border: 3px solid #e9e9e9;
 	padding: 20px; /* Add space all around wrapper */
 	max-width: 48em; /* Magic max-width responsive styles */
 	margin: 40px auto; /* Center and add space to top and bottom */
@@ -84,16 +85,13 @@ h1 {
 }
 
 .product {
-	border-bottom: 1px solid #420F19;
+	border-top: 1px solid #e9e9e9;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .product-image img {
 	width: 100%;
-	border: 2px solid rgba(255, 255, 255, 0);	
-}
-
-.product-image img:hover {
-	border-color: red;	
 }
 
 .caption {
