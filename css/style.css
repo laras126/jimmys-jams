@@ -7,7 +7,7 @@
 }
 
 body {
-	color: purple;
+	color: #333;
 	background-image: url("../images/mulberry-pile.jpg");
 	background-size: cover;
 	
@@ -53,6 +53,12 @@ h1 {
 
 /* Navigation */
 
+.logo {
+	max-width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+
 .site-nav ul {
 	list-style-type: none;
 	text-align: center;
@@ -63,9 +69,9 @@ h1 {
 /* Layout */
 
 .wrapper {
-	background-color: #F7F8F0;
+	background-color: #FEFEFE;
 	padding: 20px; /* Add space all around wrapper */
-	max-width: 64em; /* Magic max-width responsive styles */
+	max-width: 48em; /* Magic max-width responsive styles */
 	margin: 40px auto; /* Center and add space to top and bottom */
 }
 
@@ -81,12 +87,13 @@ h1 {
 	border-bottom: 1px solid #420F19;
 }
 
-.product-image {
-	/*border: 1px solid red;*/
-}
-
 .product-image img {
 	width: 100%;
+	border: 2px solid rgba(255, 255, 255, 0);	
+}
+
+.product-image img:hover {
+	border-color: red;	
 }
 
 .caption {
@@ -99,7 +106,8 @@ h1 {
 }
 
 .product-title {
-	text-shadow: 2px 2px 2px #222;
+	text-shadow: 1px 1px 0 #999;
+	font-size: 32px;
 }
 
 .availability {
@@ -126,7 +134,6 @@ h1 {
 .gallery-cell {
 	width: 66%;
 	margin-right: 10px;
-	background: #8C8;
 }
 
 
