@@ -4,18 +4,23 @@ include('partials/header.php'); ?>
 
 	<h1>Products</h1>
 
-	<p>Salesy tagline, around six words.</p>
+	<p class="lead page-lead">Salesy tagline, around six words.</p>
 
 	<p>A paragraph about how Jimmy's Jams are unique and that the jams available are dictated by whatever is in season at the time. Two-ish more sentences about that. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo.</p>
 
 	<div class="product row">
 		<div class="product-image col-sm-4">
-			<img src="images/mulberry-jam.jpg" alt="">
+			<picture>
+				<source srcset="images/mulberry-jam.jpg" media="(min-width: 48em)">
+				<source srcset="images/mulberry-jam-mobile.jpg" media="(min-width: 34em)">
+				<img src="images/mulberry-jam.jpg" alt="">
+			</picture>
 			<p class="caption">Delicious farm fresh jam.</p>
 		</div>
 		<div class="product-info col-sm-8">
 			<h3 class="product-title">Jams</h3>
-			<p>Our jams are created from fresh, wild farm ingredients. We have cherry jams, mulberry, and black raspberry. All fruit is harvested by hand during the season it is available, and then simmered down in a pot and bottled.</p>
+			<p class="lead">Our jams are created from fresh, wild farm ingredients.</p> 
+			<p>We have cherry jams, mulberry, and black raspberry. All fruit is harvested by hand during the season it is available, and then simmered down in a pot and bottled.</p>
 			<p class="availability warning">Supplies limited</p>
 		</div>
 	</div> <!-- .product -->
