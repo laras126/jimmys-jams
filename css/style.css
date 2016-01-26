@@ -15,7 +15,8 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 120%; /* Make the font slightly bigger */
+	font-size: 100%; /* Make the font slightly bigger */
+	padding: 10px;
 }
 
 /* Adding specific styles based on the body class */
@@ -39,6 +40,14 @@ h1 {
 	text-align: center;
 }
 
+.lead {
+	font-size: 24px;
+}
+
+.page-lead {
+	text-align: center;
+}
+
 .active {
 	color: pink;
 }
@@ -53,9 +62,14 @@ h1 {
 /* Navigation */
 
 .logo {
-	max-width: 200px;
+	margin: auto;
 	display: block;
-	margin: 0 auto;
+	max-width: 250px;
+}
+
+.site-nav {
+	max-height: 0;
+	overflow: hidden;
 }
 
 .site-nav ul {
@@ -64,16 +78,30 @@ h1 {
 	padding: 0;
 }
 
+.site-nav a {
+	text-decoration: none;
+}
+
+.nav-open {
+	max-height: none;
+}
+
+.menu-trigger {
+	cursor: pointer;
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #999;
+}
 
 
 /* Layout */
 
 .wrapper {
-	background-color: #FEFEFE;
+	background-color: rgba(255, 255, 255, 0.9);
 	border: 3px solid #e9e9e9;
 	padding: 20px; /* Add space all around wrapper */
 	max-width: 48em; /* Magic max-width responsive styles */
-	margin: 40px auto; /* Center and add space to top and bottom */
+	margin: 10px auto; /* Center and add space to top and bottom */
 }
 
 
@@ -120,7 +148,9 @@ h1 {
 	color: #00E35E;
 }
 
-
+.location-map {
+	border: 3px solid #999;
+}
 
 /* Plugins */
 
@@ -165,8 +195,31 @@ lg: 75em+
 
 */
 
+@media(max-width: 48em) {
+	
+	.site-nav li {
+		padding-bottom: 10px;
+		padding-top: 10px;
+		border-bottom: 1px solid #aaa;
+	}
+
+}
+
 
 @media(min-width: 48em) {
+
+	body {
+		font-size: 120%;
+	}
+
+	.menu-trigger {
+		display: none;
+	}
+
+	.site-nav {
+		max-height: none;
+		border-bottom: 1px solid #999;
+	}
 
 	.site-nav li {
 		display: inline-block;
