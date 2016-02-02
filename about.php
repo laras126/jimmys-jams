@@ -1,19 +1,6 @@
 
-
-
-
 <?php 
-
-/*
-
-1. Rename the file to .php
-2. Delete the redundant header/footer code
-3. Add the header include
-4. Add the footer include (copy/paste header include and replace "header" with "footer")
-
-*/
-
-
+$body_class = 'about';
 include('partials/header.php'); ?> 
 
 	<h1>About</h1>

@@ -1,4 +1,6 @@
-<?php include('partials/header.php') ?>
+<?php 
+$body_class = 'home';
+include('partials/header.php') ?>
 	
 	<h1>Welcome to Jimmy's Jams</h1>
 
